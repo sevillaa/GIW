@@ -1,0 +1,6 @@
+#!/Users/miguel/Documents/GitHub/GIW/.venv/bin/python3
+import sys
+from pyarmor.pyarmor import main_entry_8
+if __name__ == '__main__':
+    sys.argv[0] = sys.argv[0].removesuffix('.exe')
+    sys.exit(main_entry_8())
